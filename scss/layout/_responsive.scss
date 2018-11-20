@@ -1,0 +1,17 @@
+/* Media Queries */
+
+@media screen and (max-width: $tablet) {
+  .container {
+    width: 100%;
+  }
+   
+}
+
+@media screen and (max-width: $mobile) {
+  h1 {
+    font-size: $font-size-large;
+    }
+  h2 {
+    font-size: $font-size-large; 
+    }    
+}

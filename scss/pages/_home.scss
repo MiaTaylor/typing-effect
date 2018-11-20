@@ -1,0 +1,29 @@
+/* Use for single page or for home/main page */
+
+body {
+  font-family: $font-sans-serif;
+  background-color: $background-primary;
+  color: $color-primary;
+  height: 100vh;
+}
+
+.container {
+  @include flexbox-center;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+h1, h2 {
+  font-weight: $light;
+  margin: 0.4rem;
+  letter-spacing: $spacing-small;
+}
+
+h1 {
+  font-size: $font-size-biggest;
+}
+
+h2 {
+  font-size: $font-size-larger;
+  color: $color-secondary;
+}
